@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peliculas</title>
+	<script src="usado.js"></script>
+	<link href="estilado.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="encabezado">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+	<br>  
+	<div class="menu" id="miMenu">
+    		<a href="index.html" class="activa">Inicio</a>
+    		<a href="teror.html" >Terror</a>
+            <a href="dr.html" >Drama</a>
+            <a href="infa.html" >Infantil</a>
+            <a href="comwdia.html" >Comedia</a>
+			<a href="accion.html">Accion</a>
+            <a href="romance.html">Romance</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+	
+	<audio id="miAudio"autoplay loop>
+            <source src="./musicadeelevador.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+	<button id="subirvol">+</button>
+	<button id="bajarvol">-</button>
+	<input type="range" min="0" max="1" step="0.1" value="1" id="vol">
+	<div class="espc"></div>
+	<div class="sino">
+	<p>Hola, en este proyecto les comentaremos algunas sinopsis de peliculas y series que hemos visto.</p>
+	<p>Estas sinopsis no son serias ni representan una opinion critica de las siguientes peliculas.</p>
+	<p>Las peliculas se dividen en generos de las peliculas y series que hemos visto y recomendamos verlas alguna vez cuando te sientas muy cinefilo o estes aburrido.</p>
+	<p>Estas peliculas te sacaran un susto, una lagrima, una risa o un grito al personaje que dejo ir al amor de su vida</p>
+	</div>
+		
+	<div class="imag">
+		<br>
+		<br>
+		<br>
+		<br><br>
+		<br>
+		<br>
+		<br><br>
+		<br>
+		<br>
+		<br><br>
+	</div>
+	<div class="espc"></div>
+	<div class="pie">
+        <a href="https://www.instagram.com/"><img src="insta.png" alt="insta" height="50px" width="50px"></a>
+        <a href="https://www.facebook.com/?locale=es_LA"><img src="feis.png" alt="feisbu" height="50px" width="50px"></a>
+        <a href="https://www.tiktok.com/es/"><img src="tikitoko.png" alt="tikyok" height="50px" width="50px"></a>
+    </div>
+	
+	<style>
+		.imag{
+			background-image: url(de.png);
+			background-size: cover;
+			background-position: center;
+			}
+		</style>
+</body>
+</html>
